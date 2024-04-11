@@ -1,0 +1,70 @@
+body {
+    max-width: 1600px;
+    margin: auto;
+    background: #212529;
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+
+p, h1 {
+    color: white;
+}
+
+.maintext p {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    color: white;
+}
+
+.btn-red {
+    background: #5373db;
+    color: white;
+}
+
+.btn-red:hover {
+    background: #364e9b;
+    color: white;
+}
+
+.card-body {
+    background: #464e57;
+    border: none;
+}
+
+.card {
+    --bs-card-border-width: none;
+}
+.card p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    max-height: 150px;
+}
+
+.footer {
+    margin: 30px 0 0 0;
+    background: #464e57 !important;
+}
+
+i {
+    font-size: 2em;
+    color: white;
+}
+
+.modal-content {
+    background: #464e57;
+}
+
+.modal-body p {
+    overflow: visible;
+    white-space: wrap;
+}
